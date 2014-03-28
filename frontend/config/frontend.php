@@ -47,7 +47,6 @@ return array(
 			// uncomment the following if you have enabled Apache's Rewrite module.
 			'urlFormat' => 'path',
 			'showScriptName' => false,
-
 			'rules' => array(
 				// default rules
 				'<controller:\w+>/<id:\d+>' => '<controller>/view',
